@@ -14,7 +14,6 @@ end
 
 def using_pop(continents)
   continents.pop
-  continents
 end
 
 def pop_with_args(array)
