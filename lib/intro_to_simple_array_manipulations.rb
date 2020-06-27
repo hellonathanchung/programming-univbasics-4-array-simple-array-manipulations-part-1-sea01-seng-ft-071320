@@ -1,3 +1,5 @@
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  
 def using_push(array, string)
 array.push(string)
 end
@@ -11,9 +13,7 @@ end
 # end
 
 def using_pop(continents)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop
-  binding.pray
   continents
 end
 
